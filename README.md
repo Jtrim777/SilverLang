@@ -15,7 +15,7 @@ an executable file (whose format is defined [here](https://github/com/Jtrim777/S
     - Options:
       - `-v`         | Enables verbose assembly
       - `-xp`        | Use the exact filepath provided for source and destination files, do not add extensions
-      - `-hx`        | Generate a hexdump of the assembled program, saved to `destination.hx`
+      - `-hx`        | Generate a hexdump of the assembled program, saved to `destination.hd`
       - `-l <path>`  | Prelink the executable at the provided path. The executable must have been generated with a linking table
       - `-tbl`       | Generate the executable with a linking table so that it can be used as a library
 - boot :: This command starts the virtual machine (see [Using the VM](https://github/com/Jtrim777/SilverLang/blob/master/UsingTheVM.md))
